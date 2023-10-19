@@ -19,7 +19,8 @@ curl -X POST http://127.0.0.1:5000/screen_entity \
          }'
 ```
 
-Results: 
+will yield results: 
+
 ```json
 {
   "hits": [
@@ -35,3 +36,7 @@ Results:
 python -r requirements.txt
 python server.py
 
+
+# OFAC
+
+https://sanctionssearch.ofac.treas.gov/

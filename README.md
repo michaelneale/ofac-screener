@@ -29,7 +29,8 @@ will yield results:
     }
   ],
   "total_hits": 1
-}```
+}
+```
 
 # Installing and running
 

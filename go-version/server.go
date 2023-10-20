@@ -112,7 +112,7 @@ func main() {
 		c.JSON(http.StatusOK, matchedResults)
 	})
 
-	df = loadData("/Users/micn/Downloads/sdn.csv")
+	df = loadData("sdn.csv")
 
 	r.Run()
 }

@@ -9,7 +9,7 @@ curl -X POST http://127.0.0.1:5000/screen_entity \
      -H "Content-Type: application/json" \
      -d '{
            "query": {
-             "min_score": "0.9",
+             "min_score": 0.9,
              "name": "Peter Griffin",
 
 

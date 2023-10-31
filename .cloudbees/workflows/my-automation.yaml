@@ -14,4 +14,5 @@ jobs:
         uses: docker://python
         shell: sh
         run: |
+          ls
           pip install -r requirements.txt
